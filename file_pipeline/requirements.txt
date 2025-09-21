@@ -1,0 +1,7 @@
+supabase==2.5.0
+openai==1.50.0
+PyMuPDF==1.24.1
+python-dotenv==1.0.0
+watchdog==3.0.0
+concurrent-futures==3.1.1
+apscheduler==3.11.0

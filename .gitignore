@@ -1,0 +1,93 @@
+# Data directories
+./data_process/data_origin
+./data_process/data_output
+
+# Node.js dependencies
+/AI_resume_app/ai_resume_app/node_modules
+/node_modules
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Build outputs
+dist/
+build/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# File processing uploads (except example structure)
+file_pipeline/uploads/pending/*
+file_pipeline/uploads/processing/*
+file_pipeline/uploads/completed/*
+file_pipeline/uploads/failed/*
+!file_pipeline/uploads/pending/.gitkeep
+!file_pipeline/uploads/processing/.gitkeep
+!file_pipeline/uploads/completed/.gitkeep
+!file_pipeline/uploads/failed/.gitkeep

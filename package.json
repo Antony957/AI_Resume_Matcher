@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@usermaven/nextjs": "^1.5.8"
+	}
+}
