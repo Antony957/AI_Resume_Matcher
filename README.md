@@ -12,6 +12,7 @@ An end-to-end resume intelligence stack that ingests raw PDF resumes, extracts s
 - **Supabase-first integration** – typed client helpers, REST endpoints, and comprehensive schema docs keep the datastore transparent and reproducible.
 
 ## System Architecture
+![AI_Resume.png](document/AI_Resume.png)
 
 ### Resume ingestion pipeline
 
